@@ -3,7 +3,7 @@ import 'firebase/auth';
 import 'firebase/database';
 import 'firebase/storage';
 // Your web app's Firebase configuration
-var firebaseConfig = {
+var config = {
     apiKey: "AIzaSyAdxaT_RTjqblOQB4k5KvUQkUF2kdRCU6Q",
     authDomain: "react-slack-9862d.firebaseapp.com",
     projectId: "react-slack-9862d",
@@ -12,6 +12,6 @@ var firebaseConfig = {
     appId: "1:28797851313:web:449af65dca53de03e9f490"
 };
   // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(config);
 
 export default firebase;
